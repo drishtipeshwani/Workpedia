@@ -9,10 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@passageidentity/passage-elements": "^1.9.3",
+    "@passageidentity/passage-node": "^2.3.2",
+    "@supabase/supabase-js": "^2.26.0",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
+    "jsonwebtoken": "^9.0.0",
     "next": "13.4.7",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark-gfm": "^3.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
   }
 }
